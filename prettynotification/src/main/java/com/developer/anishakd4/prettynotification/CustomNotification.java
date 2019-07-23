@@ -61,7 +61,7 @@ public class CustomNotification {
                 .setContentTitle(bTitle)
                 .setContentText(content)
                 .setStyle(inboxStyle)
-                .addAction(icon, "ActionText"., pendingIntent);
+                .addAction(icon, "ActionText", pendingIntent);
 
         NotificationManager manager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
         manager.notify(12, builder.build());
